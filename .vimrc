@@ -33,3 +33,22 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+"" Configurations for Netrw (File directory)
+" Change File Tree format
+let g:netrw_liststyle = 3
+
+" Remove banner from netrw
+let g:netrw_banner = 0
+
+" Open new files in a new vertical split 
+let g:netrw_browse_split = 2
+
+" Fix the width to a certain percentage
+let g:netrw_winsize = 15
+
+" Set The Netrw to open on startup
+augroup ProjectDrawer
+    autocmd!
+    autocmd VimEnter * if argc() == 1 || argc() == 0 | :Vexplore | endif
+augroup END
