@@ -119,7 +119,7 @@ Plugin 'tpope/vim-fugitive' " Use to run git commands from Vim. Best used on
 
 " Improved status bar
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'} 
-
+Plugin 'https://github.com/scrooloose/nerdtree.git'
 
 
 
