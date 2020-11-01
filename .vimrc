@@ -1,5 +1,6 @@
 " First: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " Second: Run vim -> :PluginInstall
+" Test
 
 set number	        " Show line numbers
 "set linebreak	        " Break lines at word (requires Wrap lines)
